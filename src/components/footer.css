@@ -5,10 +5,10 @@ footer {
   align-items: center;
   background-color: #4a9696;
   padding: 30px;
-  position: fixed;
+  /* position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 100%; */
 }
 
 .footer-icon-section {
