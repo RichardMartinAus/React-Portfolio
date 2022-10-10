@@ -3,7 +3,6 @@ import NavTabs from './Navigation';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-import '../components/header.css';
 
 function Header() {
   const [currentPage, setCurrentPage] = useState('About');

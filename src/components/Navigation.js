@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/navigation.css';
+import resume from '../assets/images/richard-martin-resume-2022.pdf';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -35,9 +35,10 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#resume"
-          onClick={() => handlePageChange('Resume')}
+          href={resume}
+          onClick={() => handlePageChange('About')}
           className={currentPage === 'Resume' ? 'nav-link-active' : 'nav-link'}
+          target="blank"
         >
           Resume
         </a>

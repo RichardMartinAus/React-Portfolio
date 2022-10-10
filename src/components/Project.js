@@ -1,6 +1,5 @@
 import React from 'react';
 import Github from '../assets/images/github.svg';
-import '../components/project.css';
 
 export default function Project(props) {
   return (
@@ -8,11 +7,11 @@ export default function Project(props) {
       <div className="card">
         <img src={props.image} alt={props.alt} width="100%" />
         <div>
-          <a href={props.link}>
-            <h3>{props.name}</h3>
+          <a href={props.link} target="blank">
+            <h2>{props.name}</h2>
           </a>
           <p>{props.tech}</p>
-          <a href={props.ghlink}>
+          <a href={props.ghlink} target="blank">
             <img src={Github} alt="github logo" height="20px" />
           </a>
         </div>

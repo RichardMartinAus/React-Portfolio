@@ -12,7 +12,7 @@ export default function About() {
         />
         <h1>Hi, I'm Richard!</h1>
       </div>
-      <div>
+      <div class="body-copy">
         <p>
           I'm originally from South Africa but moved to Melbourne in late 2021.
           I have spent the last 19 years working for in-house and boutique
