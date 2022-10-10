@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.fc07d116.css",
+    "main.js": "/react-portfolio/static/js/main.26476ff8.js",
+    "static/media/screenshot-horiseon.jpg": "/react-portfolio/static/media/screenshot-horiseon.8b833cd51065d984d483.jpg",
+    "static/media/screenshot-sc.jpg": "/react-portfolio/static/media/screenshot-sc.028b01a86e6eb2a90650.jpg",
+    "static/media/2022-selfport.jpg": "/react-portfolio/static/media/2022-selfport.c9eaf9f430fde9d0778a.jpg",
+    "static/media/screenshot-snbe.jpg": "/react-portfolio/static/media/screenshot-snbe.d12e1e0cc9524b09ceee.jpg",
+    "static/media/screenshot-empt.jpg": "/react-portfolio/static/media/screenshot-empt.6337f87bc10f7b4ddf89.jpg",
+    "static/media/richard-martin-resume-2022.pdf": "/react-portfolio/static/media/richard-martin-resume-2022.1c4b68b4c6a9dca006ae.pdf",
+    "static/media/screenshot_wds.jpg": "/react-portfolio/static/media/screenshot_wds.8a8880ea15f0ab49228e.jpg",
+    "static/media/screenshot_password.jpg": "/react-portfolio/static/media/screenshot_password.ab457e878e4c82941562.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.fc07d116.css.map": "/react-portfolio/static/css/main.fc07d116.css.map",
+    "main.26476ff8.js.map": "/react-portfolio/static/js/main.26476ff8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc07d116.css",
+    "static/js/main.26476ff8.js"
+  ]
+}
