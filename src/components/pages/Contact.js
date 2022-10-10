@@ -45,7 +45,7 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div class="contact-page">
       <h1>Contact</h1>
       <form className="form">
         <input
@@ -53,33 +53,47 @@ export default function Contact() {
           name="name"
           onChange={handleInputChange}
           type="name"
-          placeholder="name"
+          placeholder="Name"
         />
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
+          placeholder="Email"
         />
-        <input
+        <textarea
           value={message}
           name="message"
           onChange={handleInputChange}
           type="textarea"
+          rows={10}
           placeholder="Message..."
-          rows="10"
-          cols="30"
         />
-        <button type="button" onClick={handleFormSubmit}>
+        <button type="button" class="submit-btn" onClick={handleFormSubmit}>
           Submit
         </button>
       </form>
       {errorMessage && (
-        <div>
+        <div class="error">
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      <div class="email-copy">
+        <br></br>
+        <p>Feel free to email me at: </p>
+        <a
+          href="mailto:richard.martin001@gmail.com"
+          style={{
+            color: '#4a9696',
+            marginRight: '15px',
+            fontSize: '18px',
+          }}
+        >
+          richard.martin001@gmail.com
+        </a>
+        <p>for any further enquiries!</p>
+      </div>
     </div>
   );
 }
