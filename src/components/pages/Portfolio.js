@@ -60,18 +60,28 @@ const projects = [
 
 export default function allProjects() {
   return (
-    <div>
-      <h2>Below are some of the projects I've built</h2>
-      {projects.map((project) => (
-        <Project
-          image={project.image}
-          name={project.name}
-          tech={project.tech}
-          alt={project.alt}
-          link={project.link}
-          ghlink={project.ghlink}
-        />
-      ))}
+    <div class="sheet">
+      <div class="portfolio-page">
+        <h1>Below are some of the projects I've built</h1>
+        <br></br>
+        <p>
+          Click on the name of the project to view the deployed application, or
+          a demonstration video of the app working. Or click the GitHub icon to
+          see the relevant repository.
+        </p>
+      </div>
+      <div class="portfolio-panels">
+        {projects.map((project) => (
+          <Project
+            image={project.image}
+            name={project.name}
+            tech={project.tech}
+            alt={project.alt}
+            link={project.link}
+            ghlink={project.ghlink}
+          />
+        ))}
+      </div>
     </div>
   );
 }

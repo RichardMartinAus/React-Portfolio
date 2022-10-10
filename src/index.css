@@ -15,7 +15,7 @@ p {
   font-family: 'Ubuntu', sans-serif;
 }
 
-/* HEADER STYLING */
+/* HEADER COMPONENT STYLING */
 header {
   display: flex;
   justify-content: space-between;
@@ -29,7 +29,7 @@ header {
   padding-left: 20px;
 }
 
-/* NAV STYLING */
+/* NAV COMNPONENT STYLING */
 a:link {
   text-decoration: none;
   color: white;
@@ -47,6 +47,9 @@ a:link {
 
 .nav-link-active {
   color: #e28665;
+  border-top: solid 1px #ffec1f;
+  border-bottom: solid 1px #ffec1f;
+  padding: 10px 0px 10px 0px;
 }
 
 .nav-link {
@@ -61,7 +64,7 @@ a:link {
   padding: 10px 0px 10px 0px;
 }
 
-/* FOOTER STYLING */
+/* FOOTER COMPONENT STYLING */
 footer {
   display: flex;
   flex-direction: column;
@@ -75,37 +78,68 @@ footer {
   width: 100%;
 }
 
-.footer-icon-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-}
-
-.footer-icon {
-  opacity: 70%;
-  height: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-  filter: invert(99%) sepia(94%) saturate(1198%) hue-rotate(335deg)
-    brightness(103%) contrast(103%);
-}
-
-.footer-icon:hover {
-  opacity: 100%;
-  transition: linear 200ms;
-}
-
 .footer-text {
   font-size: small;
+  padding-top: 10px;
   color: white;
 }
 
-/* PROJECTS STYLING */
+/* PROJECT COMPONENT STYLING */
+.card-body {
+  align-items: center;
+}
+
 .card {
-  background-color: violet;
-  width: 40%;
+  background-color: #4a9696;
   padding: 10px;
   margin: 20px;
+  max-width: 450px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
+
+.card-header {
+  color: white;
+}
+
+.card-tech {
+  color: white;
+  padding: 10px;
+}
+
+.card-img {
+  opacity: 80%;
+}
+
+.card-img:hover {
+  opacity: 100%;
+  transition: ease-in 200ms;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+/* PORTFOLIO PAGE */
+.portfolio-panels {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-page {
+  margin: 40px 0px 10px 40px;
+}
+
+.sheet {
+  margin-bottom: 140px;
+}
+
+/* ABOUT ME PAGE */
