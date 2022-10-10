@@ -23,7 +23,7 @@ Feel free to browse through my information, links and projects.
 
 ![Screenshot of app](assets/screenshot-porti.jpg?raw=true)
 
-Link to the deployed application on GitHubPages:
+Link to the deployed application on GitHubPages: https://richardmartinaus.github.io/react-portfolio/
 
 ## License
 
